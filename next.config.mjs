@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    typescript:{
-        ignoreBuildErrors:true
-    },
-    images: {
-        domains: ['utfs.io'],
-    },
-};
-
-module.exports = {
+  typescript: {
+    ignoreBuildErrors: true
+  },
+  images: {
+    domains: ['utfs.io'],
+  },
   async headers() {
     return [
       {
@@ -24,6 +21,10 @@ module.exports = {
     ]
   }
 };
+
+
+
+
 
 
 export default nextConfig;
