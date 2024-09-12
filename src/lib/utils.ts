@@ -32,6 +32,7 @@ export function constructMetadata({ title = "CaseCobra - custom high-quality cas
       description,
       images:[image],
     },
-    icons
+    icons,
+    metadataBase: new URL("https://casecobra-eight-lac.vercel.app")
   }
 }
